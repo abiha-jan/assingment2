@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER INPUT & CONDITIONAL STATEMENT</title>
+    <link rel="stylesheet" href="chapter9-11.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="row">
+            <div class="col-8 m-auto bg-dark text-white p-4">
+                <h4 class="text-center">Mark sheet</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="col-md-4">
+                    <div>
+                        <div class="book1">
+                            <label>English</label>
+                            <input id="bookone"type="number"name=""placeholder="">
+                        </div>
+            
+                        <div class="book2">
+                            <label>urdu</label>
+                            <input id="booktwo"type="number"name=""placeholder="">
+                        </div>
+            
+                        <div class="book3">
+                            <label>Math</label>
+                            <input id="bookthree"type="number"name=""placeholder="">
+                        </div>
+            
+                        <div class="book4">
+                            <label>Islamiyat</label>
+                            <input id ='bookfor'type="number"name=""placeholder="">
+                        </div>
+            
+                        <div class="book5">
+                            <label>S.St</label>
+                            <input id="bookfive"type="number"name=""placeholder="">
+                        </div>
+                        <div>
+                            <button  onclick="calculate()">TOTAL</button>
+                        </div>
+                    </div>
+                     <div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="container">
+                        
+                            <table>
+                                <tr>
+                                    <td>Total marks</td>
+                                    <td>500</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Obtained marks</td>
+                                    <td id="obtain">219</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Percentage</td>
+                                    <td id="percentage">75%</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Grade</td>
+                                    <td id="grade">B</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Remarks</td>
+                                    <td id= "remarks">You need to improve</td>
+                                </tr>
+                
+                                
+                            </table>
+                         </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- CALCULATER -->
+    <div id="calculator">
+        <div id="display"readonly>
+            <div id="keys">
+                <button onclick="appendToDisplay('+')"class="operator-btn">+</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('-')"class="operator-btn">-</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('*')"class="operator-btn">*</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('/')"class="operator-btn">%</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()"class="operator-btn">C</button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <script src="chapter9-11.js"></script>
+</body>
+</html>

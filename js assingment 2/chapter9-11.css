@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h4{
+    text-align: center;
+    color: white;
+    background: blue;
+    width: 20%;
+    padding: 10px;
+}
+#container {
+    width: 50px;
+    margin: 50px auto;
+}
+input[type="number"] {
+    width: 20%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black(0,0,15%);
+    border-radius: 15px;
+    min-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: center;
+    border: none;
+    background-color: black(0,0,15%);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+
+
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-size:3rem ;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button :hover{
+    background-color:  black(0,0,35%);
+}
+button :active{
+    background-color: black(0,0,45%);
+}
+.operator-btn{
+    background-color:hsl(35,100%,55%);
+}
+.operator-btn :hover{
+    background-color: hsl(35,100%,65%);
+}
+.operator-btn :active{
+    background-color: hsl(35,100%,75%);
+}
